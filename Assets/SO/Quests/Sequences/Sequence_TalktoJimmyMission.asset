@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c6383ab1075b2041ba8ae9b5b8f5ae7, type: 3}
+  m_Name: Sequence_TalktoJimmyMission
+  m_EditorClassIdentifier: 
+  SequenceID: 1
+  SequenceName: Talk to Jimmy
+  Description: Gotta talk to Jims
+  Status: 0
+  QuestType: 0
+  Tasks:
+  - {fileID: 11400000, guid: 240efd4c2e30b5d44af10fc8fc1c7f37, type: 2}
+  - {fileID: 11400000, guid: 555337e1e48fb084d932760517a472f2, type: 2}
+  TaskIndex: 0
+  isLinear: 0

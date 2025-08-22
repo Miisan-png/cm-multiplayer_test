@@ -1,0 +1,20 @@
+{
+  "dialogues": [
+    {
+      "dialoguename": "Jimmy_0",
+      "dialogue": [ "我是Jimmy!", "我坚硬如岩石!" ]
+    },
+    {
+      "dialoguename": "Jimmy_1",
+      "dialogue": [ "我是Jimmy?", "只是Jimmy。" ]
+    },
+    {
+      "dialoguename": "Joe_0",
+      "dialogue": [ "我是Joe!", "我喜欢精灵球。" ]
+    },
+    {
+      "dialoguename": "Joe_1",
+      "dialogue": [ "其实我不是Joe。", "我是Jimmy。" ]
+    }
+  ]
+}

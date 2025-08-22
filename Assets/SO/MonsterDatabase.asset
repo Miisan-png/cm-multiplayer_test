@@ -1,0 +1,300 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96201bc083c14824183b93a2938ceb04, type: 3}
+  m_Name: MonsterDatabase
+  m_EditorClassIdentifier: 
+  monsterAssets:
+  - ID: 1
+    Name: 'Asotaro '
+    NameCN: "\u6E38\u592A\u90CE "
+    NameJP: "\u30A2\u30BD\u30BF\u30ED "
+    CameraIntroZoom: 7
+    CameraIntroPan: 0
+    CameraMainFOV: 20
+    CameraMainPan: 0.18
+    ShieldVFXScale: {x: 0, y: 0, z: 0}
+    Move1Name: 'Bullet Stream '
+    Move1NameCN: "\u6C34\u5F39\u6D41 "
+    Move1NameJP: "\u5F3E\u4E38\u6C34\u6D41 "
+    attackSound: {fileID: 0}
+    damagedSound: {fileID: 0}
+    SmallPrefab: {fileID: 643829032458939881, guid: a94ae86aa4944f849a2bbc346ccbde71, type: 3}
+    BigPrefab: {fileID: 2149050263906626677, guid: 78735d63a71f8f24b95590382aa6e06e, type: 3}
+    AttackVFX: {fileID: 0}
+    HitVFX: {fileID: 0}
+    PixelArt:
+    - {fileID: 1531727478, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    - {fileID: -1840171810, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    PixelArt2:
+    - {fileID: 1531727478, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    - {fileID: -1828122863, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+  - ID: 2
+    Name: 'Chaulk '
+    NameCN: "\u989C\u7C89\u767D "
+    NameJP: "\u30C1\u30E3\u30B3 "
+    CameraIntroZoom: 7
+    CameraIntroPan: 0
+    CameraMainFOV: 22.5
+    CameraMainPan: 0.18
+    ShieldVFXScale: {x: 0, y: 0, z: 0}
+    Move1Name: 'Crayon Headbutt! '
+    Move1NameCN: "\u7ED9\u4F60\u8138\u8272\u770B\uFF01"
+    Move1NameJP: "\u30AF\u30EC\u30E8\u30F3\u982D\u7A81\u304D "
+    attackSound: {fileID: 0}
+    damagedSound: {fileID: 0}
+    SmallPrefab: {fileID: 1764503495213901082, guid: 1324d5f0043e82640a3a1cbd0f5a9b64, type: 3}
+    BigPrefab: {fileID: 582377496923546182, guid: d778a3f8aac33c54285761d9dd23703a, type: 3}
+    AttackVFX: {fileID: 0}
+    HitVFX: {fileID: 0}
+    PixelArt:
+    - {fileID: 412038368, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    - {fileID: -455328629, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    PixelArt2:
+    - {fileID: 412038368, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    - {fileID: 665149837, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+  - ID: 3
+    Name: 'Denelley '
+    NameCN: "\u5154\u5154\u5413 "
+    NameJP: "\u30C7\u30CD\u30EA "
+    CameraIntroZoom: 7
+    CameraIntroPan: 0
+    CameraMainFOV: 20
+    CameraMainPan: 0.12
+    ShieldVFXScale: {x: 0, y: 0, z: 0}
+    Move1Name: 'Spirit Ball '
+    Move1NameCN: "\u7075\u7075\u7403 "
+    Move1NameJP: "\u970A\u4E38 "
+    attackSound: {fileID: 0}
+    damagedSound: {fileID: 0}
+    SmallPrefab: {fileID: 6874407800371418117, guid: 84e9572d4f7fdf748ad2973914825de8, type: 3}
+    BigPrefab: {fileID: 8105855865432306506, guid: 0d828f8268a50a340af234f93d3c1e64, type: 3}
+    AttackVFX: {fileID: 0}
+    HitVFX: {fileID: 0}
+    PixelArt:
+    - {fileID: 1469389282, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    - {fileID: 67788681, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    PixelArt2:
+    - {fileID: 1469389282, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    - {fileID: 1436753113, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+  - ID: 4
+    Name: 'Phantle '
+    NameCN: "\u70E7\u6C34\u4ED4 "
+    NameJP: "\u30B1\u30C8\u30BE\u30A6 "
+    CameraIntroZoom: 7
+    CameraIntroPan: 0
+    CameraMainFOV: 20
+    CameraMainPan: 0.12
+    ShieldVFXScale: {x: 0, y: 0, z: 0}
+    Move1Name: 'Boiling Bubble '
+    Move1NameCN: "\u70EB\u6CE1\u6CE1 "
+    Move1NameJP: "\u30A2\u30C1\u30C1\u30D0\u30D6\u30EB "
+    attackSound: {fileID: 0}
+    damagedSound: {fileID: 0}
+    SmallPrefab: {fileID: 7698366306684293669, guid: 062127bad8f7aaa4dba529fcb88edb43, type: 3}
+    BigPrefab: {fileID: 7698366306684293669, guid: 062127bad8f7aaa4dba529fcb88edb43, type: 3}
+    AttackVFX: {fileID: 1607712669156078688, guid: 5146ce23f78dca24bb7ed46a5a26d9a1, type: 3}
+    HitVFX: {fileID: 5554915285377722446, guid: 32da0448989f3d247941ff4ee47fc90c, type: 3}
+    PixelArt:
+    - {fileID: 637969445, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    - {fileID: 1381655786, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    PixelArt2:
+    - {fileID: 637969445, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    - {fileID: -1686001546, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+  - ID: 5
+    Name: 'Teruteru '
+    NameCN: "\u6674\u5A03 "
+    NameJP: "\u30C6\u30EB\u30C6\u30EB "
+    CameraIntroZoom: 5
+    CameraIntroPan: 0
+    CameraMainFOV: 10
+    CameraMainPan: 0.33
+    ShieldVFXScale: {x: 0, y: 0, z: 0}
+    Move1Name: 'Charge Strike '
+    Move1NameCN: "\u84C4\u7535\u51FB "
+    Move1NameJP: "\u30C1\u30E3\u30FC\u30B8\u30B9\u30C8 "
+    attackSound: {fileID: 0}
+    damagedSound: {fileID: 0}
+    SmallPrefab: {fileID: 5268985790921941719, guid: f854c93d7d238ee4fbc098692d43076f, type: 3}
+    BigPrefab: {fileID: 3887011623894150846, guid: f2f5a19df5ba30d48b36ca61461e09f4, type: 3}
+    AttackVFX: {fileID: 0}
+    HitVFX: {fileID: 0}
+    PixelArt:
+    - {fileID: 733532926, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    - {fileID: -183274345, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    PixelArt2:
+    - {fileID: 733532926, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    - {fileID: -718309546, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+  - ID: 6
+    Name: 'Thorung '
+    NameCN: "\u718A\u9AA8\u9798 "
+    NameJP: "\u30C9\u30E9\u30C3\u30AF "
+    CameraIntroZoom: 8
+    CameraIntroPan: 0
+    CameraMainFOV: 20
+    CameraMainPan: 0.2
+    ShieldVFXScale: {x: 0, y: 0, z: 0}
+    Move1Name: 'Shock Bite '
+    Move1NameCN: "\u96F7\u9F7F "
+    Move1NameJP: "\u30B7\u30E7\u30C3\u30AF\u565B\u307F\u3064\u304F "
+    attackSound: {fileID: 0}
+    damagedSound: {fileID: 0}
+    SmallPrefab: {fileID: 8733554303709319464, guid: fbe27c7da9188b848acbb0e0d3be8f49, type: 3}
+    BigPrefab: {fileID: 5260005914475039004, guid: 92d22a8e0a15b8c4bbde60f24ed9c122, type: 3}
+    AttackVFX: {fileID: 0}
+    HitVFX: {fileID: 0}
+    PixelArt:
+    - {fileID: -452266782, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    - {fileID: 262221001, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    PixelArt2:
+    - {fileID: -452266782, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    - {fileID: -1421458642, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+  - ID: 7
+    Name: 'Rubpah '
+    NameCN: "\u5E03\u773C "
+    NameJP: "\u30EB\u30C3\u30D1 "
+    CameraIntroZoom: 9
+    CameraIntroPan: 0
+    CameraMainFOV: 24
+    CameraMainPan: 0.2
+    ShieldVFXScale: {x: 0, y: 0, z: 0}
+    Move1Name: 'Smelly Gas '
+    Move1NameCN: "\u81ED\u6C14\u88AD "
+    Move1NameJP: "\u30B4\u30DF\u30AC\u30B9 "
+    attackSound: {fileID: 0}
+    damagedSound: {fileID: 0}
+    SmallPrefab: {fileID: 75423405206533530, guid: 3299e755df23503498148dd8fe3ce7d0, type: 3}
+    BigPrefab: {fileID: 1702922763024838333, guid: b9ae8c726c1254849a1f73bfb447fa3e, type: 3}
+    AttackVFX: {fileID: 0}
+    HitVFX: {fileID: 0}
+    PixelArt:
+    - {fileID: -1903054241, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    - {fileID: 563046124, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    PixelArt2:
+    - {fileID: -1903054241, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    - {fileID: 687751818, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+  - ID: 8
+    Name: 'Hanamori '
+    NameCN: "\u82B1\u5B88\u7075 "
+    NameJP: "\u30CF\u30CA\u30E2\u30EA "
+    CameraIntroZoom: 14.5
+    CameraIntroPan: 0.35
+    CameraMainFOV: 40
+    CameraMainPan: 0.25
+    ShieldVFXScale: {x: 1.5, y: 3, z: 1.5}
+    Move1Name: 'Air Blast '
+    Move1NameCN: "\u98CE\u5377\u70AE "
+    Move1NameJP: "\u98A8\u30D6\u30E9\u30B9\u30C8"
+    attackSound: {fileID: 0}
+    damagedSound: {fileID: 0}
+    SmallPrefab: {fileID: 5317262682155435118, guid: 003c6bed65ad21c48a07f23b02bc23b7, type: 3}
+    BigPrefab: {fileID: 6530132838000901691, guid: 46cb57296643fda4f841a9eea53c9d75, type: 3}
+    AttackVFX: {fileID: 0}
+    HitVFX: {fileID: 0}
+    PixelArt:
+    - {fileID: -1950829749, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    - {fileID: 1418604558, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    PixelArt2:
+    - {fileID: -1950829749, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    - {fileID: -1758797419, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+  - ID: 9
+    Name: 'Flababorm '
+    NameCN: "\u82B1\u866B\u5B9D "
+    NameJP: "\u30D5\u30E9\u30DD\u30F3 "
+    CameraIntroZoom: 7
+    CameraIntroPan: 0
+    CameraMainFOV: 20
+    CameraMainPan: 0.15
+    ShieldVFXScale: {x: 0, y: 0, z: 0}
+    Move1Name: 'Sun Beam '
+    Move1NameCN: "\u9633\u5149\u675F "
+    Move1NameJP: "\u592A\u967D\u30D3\u30FC\u30E0 "
+    attackSound: {fileID: 0}
+    damagedSound: {fileID: 0}
+    SmallPrefab: {fileID: 6299209181919733698, guid: 163e889263e84e343997f67b5e720c72, type: 3}
+    BigPrefab: {fileID: 2731002104773420141, guid: 4955f93ead193ab47821118a1a9cb4a5, type: 3}
+    AttackVFX: {fileID: 0}
+    HitVFX: {fileID: 0}
+    PixelArt:
+    - {fileID: -783659557, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    - {fileID: 2040907714, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    PixelArt2:
+    - {fileID: -783659557, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    - {fileID: 147887569, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+  - ID: 10
+    Name: 'Gachyacat '
+    NameCN: "\u626D\u86CB\u732B "
+    NameJP: "\u30AC\u30C1\u30E3\u30B1\u30C3\u30C8 "
+    CameraIntroZoom: 7
+    CameraIntroPan: 0
+    CameraMainFOV: 23.2
+    CameraMainPan: 0.15
+    ShieldVFXScale: {x: 0, y: 0, z: 0}
+    Move1Name: 'Gacha Ball '
+    Move1NameCN: "\u5149\u86CB\u5C04\u51FB "
+    Move1NameJP: "\u30AC\u30C1\u30E3\u30DC\u30FC\u30EB "
+    attackSound: {fileID: 0}
+    damagedSound: {fileID: 0}
+    SmallPrefab: {fileID: 2917136245313661398, guid: 0ea1803b5a74efd42b615acefc4e1215, type: 3}
+    BigPrefab: {fileID: 8379014407977808734, guid: 7ed03e4181b6ac944a1c0b1a73567a3a, type: 3}
+    AttackVFX: {fileID: 0}
+    HitVFX: {fileID: 0}
+    PixelArt:
+    - {fileID: 856050982, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    - {fileID: -346974829, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    PixelArt2:
+    - {fileID: 856050982, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    - {fileID: 967362594, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+  - ID: 11
+    Name: 'Plodor '
+    NameCN: "\u5730\u96F7\u6CE5 "
+    NameJP: "\u30D0\u30AF\u30C0 "
+    CameraIntroZoom: 9.5
+    CameraIntroPan: 0
+    CameraMainFOV: 26
+    CameraMainPan: 0.21
+    ShieldVFXScale: {x: 0, y: 0, z: 0}
+    Move1Name: 'Angry Cry '
+    Move1NameCN: "\u6C14\u51B2\u51B2 "
+    Move1NameJP: "\u6012\u9CF4\u308A\u58F0  "
+    attackSound: {fileID: 0}
+    damagedSound: {fileID: 0}
+    SmallPrefab: {fileID: 4824820175110186764, guid: fbd511bf876f4bf429535854e01b7536, type: 3}
+    BigPrefab: {fileID: 6027506048570854702, guid: cff70d12d0714794ea17bb48b4946bbf, type: 3}
+    AttackVFX: {fileID: 0}
+    HitVFX: {fileID: 0}
+    PixelArt:
+    - {fileID: 1453825385, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    - {fileID: 774739863, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    PixelArt2:
+    - {fileID: 1453825385, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    - {fileID: 1251240596, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+  - ID: 12
+    Name: 'Ou-Mi '
+    NameCN: "\u6B27 \u54AA "
+    NameJP: "\u30AA\u30A6 \u30DF "
+    CameraIntroZoom: 7
+    CameraIntroPan: 0
+    CameraMainFOV: 20
+    CameraMainPan: 0.15
+    ShieldVFXScale: {x: 0, y: 0, z: 0}
+    Move1Name: 'Song Bird '
+    Move1NameCN: "\u6B4C\u9E23 "
+    Move1NameJP: "\u9CE5\u6B4C "
+    attackSound: {fileID: 0}
+    damagedSound: {fileID: 0}
+    SmallPrefab: {fileID: 643829032458939881, guid: a94ae86aa4944f849a2bbc346ccbde71, type: 3}
+    BigPrefab: {fileID: 2149050263906626677, guid: 78735d63a71f8f24b95590382aa6e06e, type: 3}
+    AttackVFX: {fileID: 0}
+    HitVFX: {fileID: 0}
+    PixelArt:
+    - {fileID: 1531727478, guid: d28cca1d8827798458f6d886090f5948, type: 3}
+    PixelArt2: []

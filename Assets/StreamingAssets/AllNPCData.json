@@ -1,0 +1,24 @@
+{
+  "npcs": [
+    {
+      "ID": 1,
+      "Name": "Jimmy",
+      "Description": "Chill Guy."
+    },
+    {
+      "ID": 2,
+      "Name": "Joe",
+      "Description": "Chill Dude."
+    },
+    {
+      "ID": 3,
+      "Name": "Mom",
+      "Description": "Chill Mom."
+    },
+    {
+      "ID": 4,
+      "Name": "Dad",
+      "Description": "Chill Dad."
+    }
+  ]
+}
